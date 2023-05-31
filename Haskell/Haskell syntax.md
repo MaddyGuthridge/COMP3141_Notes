@@ -27,6 +27,11 @@ This leads to an infinite loop, since it defines `x` in terms of `x`.
 9 `div` 2 -- Int division operator (4)
 ```
 
+Type queries
+```haskell
+:t True -- Bool
+```
+
 ## Functions
 Note that Haskell is a *functional* language, not an *imperative* language.
 - LHS names the parameter
@@ -100,14 +105,32 @@ f = g
 ```
 
 ## Lists
-
+Haskell uses lists to store arrays of data
 ```haskell
 [1, 2, 3]  -- declares a list
+:t [True, False, True] -- [Bool] 
+```
+
+Appending to the list, using the `:` (cons) operator
+```haskell
+1:2:[] -- create a new list with 1 and 2 added to the end of it
 ```
 
 ### Strings
-
 Essentially a character list
 ```haskell
-
+String = [Char]  -- TODO: is this the right syntax?
 ```
+
+## Pairs
+Kinda like a `tuple` in Python and Rust?
+
+```haskell
+divmod :: Int -> Int -> (Int, Int)
+divmod x y = (x `div` y, x `mod` y)
+divmod 10 3 -- (3, 1)
+```
+
+#### Why not use a Pair to create a multi-argument function?
+
+- Can't partially apply the function
