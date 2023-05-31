@@ -1,0 +1,4 @@
+- **R**ead
+- **E**valuate
+- **P**rint
+- **L**oop
