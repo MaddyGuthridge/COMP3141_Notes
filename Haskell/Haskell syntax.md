@@ -65,3 +65,4 @@ myLogBase =
 ```
 
 ### Multi-argument functions ***don't exist??***
+- Every functi
