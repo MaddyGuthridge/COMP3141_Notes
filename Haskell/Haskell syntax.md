@@ -107,6 +107,7 @@ f = g
 
 ### Strings
 
-Essent
+Essentially a character list
 ```haskell
+
 ```
