@@ -57,6 +57,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Haskell/Haskell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "299bd79e49bf77c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Haskell/Haskell syntax.md",
                 "mode": "source",
                 "source": false
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -192,9 +204,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3b321d4bd8a2c3c2",
+  "active": "299bd79e49bf77c0",
   "lastOpenFiles": [
+    "Haskell/Setting up Haskell locally.md",
     "Haskell/Haskell.md",
+    "Untitled.md",
     "Haskell/Haskell syntax.md",
     "Haskell",
     "Assessment.md",
