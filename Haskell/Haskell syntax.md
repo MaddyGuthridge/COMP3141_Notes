@@ -69,6 +69,13 @@ myLogBase :: Double -> Double -> Double
 myLogBase base value = log value / log base
 ```
 
+Example: `applyTwice` to apply a function twice
+```haskell
+-- TODO: Make args generic
+applyTwice :: (Int -> Int) -> Int -> Int
+applyTwice f x = f(f x)
+```
+
 ### Multi-argument functions ***don't exist??***
 - Every function takes one value and returns one value
 - To create pretend to have a multi-argument function, we just create a function that returns a function that accepts the next argument
@@ -99,7 +106,7 @@ x 3 -- 2 + 3 = 5
 
 #### Function forwarding
 
-If there is a function `f` which takes argument `x` and returns `g x`, there is no need to declare its argument. The following will suffice
+If there is a function `f` which takes argument `x` and returns `g x`, there is no need to declare its argument. The following will suffice:
 ```haskell
 f = g
 ```
