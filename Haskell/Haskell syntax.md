@@ -121,6 +121,12 @@ If there is a function `f` which takes argument `x` and returns `g x`, there is 
 f = g
 ```
 
+#### Lambdas
+
+```haskell
+f = \x -> x * 2
+```
+
 ## Lists
 Haskell uses lists to store arrays of data
 ```haskell
