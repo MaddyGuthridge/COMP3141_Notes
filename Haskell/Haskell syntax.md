@@ -20,6 +20,16 @@ x = x + 1
 
 This leads to an infinite loop, since it defines `x` in terms of `x`.
 
+### Lazy evaluation
+Note that values are lazy-evaluated, so they are only checked when they are evaluated
+
+Eg: if you have the following in a file
+```haskell
+y = 2 `div` 0
+```
+
+You will only get the divide by zero exception when you query `x`
+
 ## Operations
 ```haskell
 9 * 2 -- Multiplication operator
