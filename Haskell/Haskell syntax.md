@@ -28,7 +28,7 @@ Eg: if you have the following in a file
 y = 2 `div` 0
 ```
 
-You will only get the divide by zero exception when you query `x`
+You will only get the divide by zero exception when you query `x` (or call code the queries it)
 
 ## Operations
 ```haskell
@@ -81,8 +81,8 @@ myLogBase base value = log value / log base
 
 Example: `applyTwice` to apply a function twice
 ```haskell
--- TODO: Make args generic
-applyTwice :: (Int -> Int) -> Int -> Int
+-- Note that lowercase things are "generics"
+applyTwice :: (t -> t) -> t -> t
 applyTwice f x = f(f x)
 ```
 
