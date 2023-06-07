@@ -18,4 +18,8 @@ $ stack repl
 ## Using GHCup
 GHCup is a tool to install and manage versions of GHC, the Glorious Glasgow Haskell Compilation System. The setup script is available [here](https://www.haskell.org/ghcup/).
 
-You can install a language server, allowing for better integration with your IDE, provided it supports the Language Server Protocol
+You can install a language server, allowing for better integration with your IDE, provided it supports the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/).
+
+```sh
+$ ghci
+```
