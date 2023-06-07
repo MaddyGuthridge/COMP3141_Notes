@@ -88,6 +88,30 @@
             }
           },
           {
+            "id": "7355bb403b34c05d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell/Type class.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0be0eef4b20eaa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell/Interpreter commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "299bd79e49bf77c0",
             "type": "leaf",
             "state": {
@@ -112,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -178,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Haskell/Data representation.md",
+                "file": "Haskell/Interpreter commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Haskell/Data representation.md",
+                "file": "Haskell/Interpreter commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Haskell/Data representation.md"
+                "file": "Haskell/Interpreter commands.md"
               }
             }
           }
@@ -240,10 +264,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "18d32e378902b665",
+  "active": "d0be0eef4b20eaa5",
   "lastOpenFiles": [
-    "Haskell/Running Haskell.md",
+    "Haskell/Type class.md",
+    "Haskell/Interpreter commands.md",
     "Haskell/Data representation.md",
+    "Haskell/Running Haskell.md",
     "Haskell/VS Code integration.md",
     "Haskell/Haskell.md",
     "Haskell/Lazy evaluation.md",
