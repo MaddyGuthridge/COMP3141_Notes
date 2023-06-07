@@ -45,7 +45,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/Induction.md",
+                "file": "Haskell/Haskell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04d035a816cddd14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell/Running Haskell.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/Induction.md",
+                "file": "Haskell/Running Haskell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/Induction.md",
+                "file": "Haskell/Running Haskell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/Induction.md"
+                "file": "Haskell/Running Haskell.md"
               }
             }
           }
@@ -204,14 +216,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "251871cb06aa7bb9",
+  "active": "04d035a816cddd14",
   "lastOpenFiles": [
-    "README.md",
+    "Haskell/Haskell.md",
+    "Haskell/Lazy evaluation.md",
     "Maths/Induction.md",
+    "README.md",
     "Untitled",
     "Maths",
     "Haskell/Haskell syntax.md",
-    "Haskell/Haskell.md",
     "Haskell/Running Haskell.md",
     "Concepts/REPL.md",
     "Concepts",
