@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haskell/Haskell syntax.md",
+                "file": "Maths/Induction.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Haskell/Haskell syntax.md",
+                "file": "Maths/Induction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Haskell/Haskell syntax.md",
+                "file": "Maths/Induction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Haskell/Haskell syntax.md"
+                "file": "Maths/Induction.md"
               }
             }
           }
@@ -206,15 +206,17 @@
   },
   "active": "251871cb06aa7bb9",
   "lastOpenFiles": [
+    "README.md",
+    "Maths/Induction.md",
+    "Untitled",
+    "Maths",
+    "Haskell/Haskell syntax.md",
     "Haskell/Haskell.md",
     "Haskell/Running Haskell.md",
     "Concepts/REPL.md",
-    "Untitled",
     "Concepts",
-    "Haskell/Haskell syntax.md",
     "Untitled.md",
     "Haskell",
-    "Assessment.md",
-    "README.md"
+    "Assessment.md"
   ]
 }
