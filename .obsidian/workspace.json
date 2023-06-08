@@ -96,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,8 +154,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "810e1695b87fe70f",
+  "active": "e45c83901cff9572",
   "lastOpenFiles": [
+    "README.md",
+    "Untitled.md",
     "Haskell/Syntax/currying.md",
     "Haskell/Syntax/pair.md",
     "Haskell/Syntax/function.md",
@@ -169,7 +167,6 @@
     "Concepts/REPL.md",
     "Maths/Maths.md",
     "Assessment.md",
-    "README.md",
     "Haskell/Syntax/constant.md",
     "Haskell/Syntax/Haskell syntax.md",
     "Haskell/Syntax/operator.md",
@@ -184,7 +181,6 @@
     "Haskell/VS Code integration.md",
     "Maths",
     "Concepts",
-    "Untitled.md",
     "Haskell"
   ]
 }
