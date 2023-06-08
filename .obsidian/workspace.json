@@ -8,135 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0fe74b48916bb462",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "07ed1e58e793437e",
+            "id": "4132ffe615491d03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Haskell/Syntax/Operations.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "033617f0de4f9677",
+            "id": "1dbddcc07dfd9c8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assessment.md",
+                "file": "Haskell/Syntax/list.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "251871cb06aa7bb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell/Haskell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04d035a816cddd14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell/Running Haskell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "386f110e3a2b0e1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell/Running Haskell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18d32e378902b665",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell/Data representation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7355bb403b34c05d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell/Type class.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
+          }
+        ]
+      },
+      {
+        "id": "1e733508738eb5e0",
+        "type": "tabs",
+        "children": [
           {
             "id": "d0be0eef4b20eaa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haskell/Interpreter commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "299bd79e49bf77c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell/Running Haskell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4132ffe615491d03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concepts/REPL.md",
+                "file": "Haskell/Syntax/Haskell syntax.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Haskell/Interpreter commands.md",
+                "file": "Haskell/Syntax/Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Haskell/Interpreter commands.md",
+                "file": "Haskell/Syntax/Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Haskell/Interpreter commands.md"
+                "file": "Haskell/Syntax/Operations.md"
               }
             }
           }
@@ -264,21 +177,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d0be0eef4b20eaa5",
+  "active": "4132ffe615491d03",
   "lastOpenFiles": [
-    "Haskell/Type class.md",
-    "Haskell/Interpreter commands.md",
-    "Haskell/Data representation.md",
+    "Haskell/Syntax/comment.md",
+    "Haskell/Syntax/constant.md",
+    "Haskell/Syntax/function.md",
+    "Haskell/Syntax/list.md",
+    "Haskell/Syntax/Haskell syntax.md",
+    "Concepts/REPL.md",
     "Haskell/Running Haskell.md",
+    "Haskell/Type class.md",
+    "Haskell/Data representation.md",
+    "Haskell/Syntax/Operations.md",
+    "Haskell/lazy evaluation.md",
+    "Haskell/Syntax",
+    "Haskell/Interpreter commands.md",
     "Haskell/VS Code integration.md",
     "Haskell/Haskell.md",
-    "Haskell/Lazy evaluation.md",
     "Maths/Induction.md",
     "README.md",
-    "Untitled",
     "Maths",
-    "Haskell/Haskell syntax.md",
-    "Concepts/REPL.md",
     "Concepts",
     "Untitled.md",
     "Haskell",

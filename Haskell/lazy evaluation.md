@@ -1,4 +1,13 @@
-[[Haskell]] evaluates values lazily.
+[[Haskell]] evaluates values lazily, so they are only checked when they are evaluated
+
+Eg: if you have the following in a file
+```haskell
+y = 2 `div` 0
+```
+
+You will only get the divide by zero exception when you query `x` (or call code the queries it)
+
+This is also useful for infinite generators
 ```haskell
 -- An infinitely long list
 ones :: [Int]
@@ -18,3 +27,4 @@ This would cause many problems in most languages, but for Haskell it only causes
 > ones
 [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, .........
 ```
+
