@@ -22,4 +22,15 @@ Haskell provides `curry` and `uncurry` functions which allow you to convert to/f
 
 ```haskell
 curriedMul x y = x * y
+-- Uncurried version accepts a pair as an argument
+uncurriedMul (x, y) = x * y
+
+---------------
+
+> curry uncurriedMul  
+-- produces a function identical to curriedMul
+> uncurry curriedMul
+-- produces a function identical to uncurriedMul
 ```
+
+Due to the "first-class currying" nature of Haskell, there should be almost no reason to write uncurried functions.
