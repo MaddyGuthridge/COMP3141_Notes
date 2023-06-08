@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haskell/Interpreter commands.md",
+                "file": "Haskell/Syntax/operator.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Haskell/Interpreter commands.md",
+                "file": "Haskell/Syntax/operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Haskell/Interpreter commands.md",
+                "file": "Haskell/Syntax/operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Haskell/Interpreter commands.md"
+                "file": "Haskell/Syntax/operator.md"
               }
             }
           }
@@ -173,6 +173,8 @@
   "active": "c4662ce423d5e738",
   "lastOpenFiles": [
     "Haskell/Haskell.md",
+    "Haskell/Type class.md",
+    "Haskell/Interpreter commands.md",
     "Haskell/Data representation.md",
     "Haskell/Syntax/list.md",
     "Haskell/Syntax/operator.md",
@@ -184,10 +186,8 @@
     "Haskell/Syntax/function.md",
     "Concepts/REPL.md",
     "Haskell/Running Haskell.md",
-    "Haskell/Type class.md",
     "Haskell/lazy evaluation.md",
     "Haskell/Syntax",
-    "Haskell/Interpreter commands.md",
     "Haskell/VS Code integration.md",
     "Maths/Induction.md",
     "README.md",

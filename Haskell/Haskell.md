@@ -7,3 +7,4 @@ Haskell is a programming language introduced in 1990. It was originally a resear
 - [[Running Haskell]]
 - [[Interpreter commands]]
 - [[Haskell syntax]]
+- [[Type class]]

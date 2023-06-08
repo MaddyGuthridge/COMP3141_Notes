@@ -35,7 +35,7 @@ We were only shown how to do this for type classes, but it might work for other 
 ```
 
 ## Running shell commands
-You can run commands in a shell, which is useful for quick terminal operations. Note that ``
+You can run commands in a shell, which is useful for quick terminal operations. Note that it uses `/bin/sh`, and [NOT your preferred shell](https://stackoverflow.com/a/46119030/6335363).
 
 ```haskell
 > :! echo "Hello world"
