@@ -3,7 +3,7 @@ These are my notes for COMP3141, UNSW's course on *software design and implement
 While I've tried my best to make sure they're correct, I can't be certain - take everything with a grain of salt.
 
 ## Viewing the notes
-I wrote these notes using Obsi
+I wrote these notes using [Obsidian](https://obsidian.md/), which provides many useful features, such as wiki-style links (`[[page name]]`), used to link pages together. You'll get the best experience reading my notes if you use it as your viewer.
 
 ## Table of contents
 - [[Assessment]]
