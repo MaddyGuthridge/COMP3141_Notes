@@ -8,7 +8,8 @@ Functions can be used with an operator-like syntax
 ```haskell
 > div 9 2
 4
-9
+> 9 `div` 2
+4
 ```
 ```haskell
 9 `div` 2 -- Int division operator (4)
