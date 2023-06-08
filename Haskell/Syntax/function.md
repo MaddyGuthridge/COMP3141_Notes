@@ -42,32 +42,39 @@ applyTwice f x = f(f x)
 ```
 
 ## Multi-argument functions ***don't exist??***
-- Every function takes one value and returns one value
-- To create pretend to have a multi-argument function, we just create a function that returns a function that accepts the next argument
-- This is called currying
+- Every function takes one value and returns one value.
+- To create pretend to have a multi-argument function, we just create a function that returns a function that accepts the next argument.
+- This is called [[currying]].
+- It means you can do cool things such as [[partial function application]].
 
 ### ✨Syntactic sugar✨
-To call multi-argument functions
+Because having multiple arguments is useful, Haskell offers shorthand for declaring them, but just remember that it's still creating functions that return functions under the hood.
+
 ```haskell
-f x y <=> (f x) y
-```
-Conversely, the `->` is right-associative
-```haskell
-a -> b -> c -- a -> (b -> c)
+myFunction x y = x * y
+-- A function that takes in `x`, then returns a function that takes in `y`
+-- which then returns `x + y`
 ```
 
-### Operators are also just multi-argument functions
+To call multi-argument functions
+```haskell
+-- Equivalent
+> f x y
+> (f x) y
+```
+
+Conversely, the `->` in type definitions is right-associative
+```haskell
+-- myFunction takes in `a`, then returns a function that takes in `b` and 
+-- returns `c`
+myFunction :: a -> b -> c -- a -> (b -> c)
+```
+
+## Operators are also just functions
 
 ```haskell
 > :t (+) 
 (+) 2 :: Num a -> a -> a
-```
-
-You can create *partially-applied* operations like this
-```haskell
-x = (+) 2  -- creates a function that adds 2
-x 2 -- 2 + 2 = 4
-x 3 -- 2 + 3 = 5
 ```
 
 ## Function forwarding
@@ -78,9 +85,7 @@ f = g
 ```
 
 ## Lambdas
-
+You can define functions inline like this
 ```haskell
-f = \x -> x * 2
+\x -> x * 2
 ```
-
-## Currying

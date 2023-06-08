@@ -1,0 +1,1 @@
+Currying is the idea of taking one argument per [[function]], meaning that functions can be [[function|partially-applied]].

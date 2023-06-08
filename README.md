@@ -2,6 +2,11 @@ These are my notes for COMP3141, UNSW's course on *software design and implement
 
 While I've tried my best to make sure they're correct, I can't be certain - take everything with a grain of salt.
 
+## Table of contents
+- [[Assessment]]
+- [[Haskell]]
+- [[Maths]]
+
 ## What is COMP3141?
 
 - Mathematically-driven programming
@@ -15,7 +20,7 @@ While I've tried my best to make sure they're correct, I can't be certain - take
 - Design
 - Testing
 - Types and type systems
-- Haskell (some, but you need to do some self-driven learning)
+- [[Haskell]] (some, but you need to do some self-driven learning)
 
 ## What is COMP3141 not?
 
