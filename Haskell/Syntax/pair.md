@@ -8,4 +8,4 @@ divmod 10 3 -- (3, 1)
 
 #### Why not use a Pair to create a multi-argument function?
 
-- Can't partially apply the function
+- Can't [[partial function application|partially apply]] the [[function]]
