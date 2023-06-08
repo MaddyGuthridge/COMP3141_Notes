@@ -8,9 +8,11 @@ Functions can be used with an operator-like syntax
 ```haskell
 > div 9 2
 4
-> 9 `div` 2
+> 9 `div` 2  -- equivalent
 4
 ```
+
+Here are some common functions to use as operators
 ```haskell
 9 `div` 2 -- Int division operator (4)
 9 `mod` 2 -- Modulo operator (1)
