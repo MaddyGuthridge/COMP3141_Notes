@@ -16,7 +16,7 @@ sqaure 2 + 2 -- 6, it evaluates to (square 2) + 2
 square (2 + 2) -- 16
 ```
 
-### First-class functions
+## First-class functions
 
 Functions are values, just like variables, and they can be used like them.
 
@@ -41,12 +41,12 @@ applyTwice :: (t -> t) -> t -> t
 applyTwice f x = f(f x)
 ```
 
-### Multi-argument functions ***don't exist??***
+## Multi-argument functions ***don't exist??***
 - Every function takes one value and returns one value
 - To create pretend to have a multi-argument function, we just create a function that returns a function that accepts the next argument
 - This is called currying
 
-#### ✨Syntactic sugar✨
+### ✨Syntactic sugar✨
 To call multi-argument functions
 ```haskell
 f x y <=> (f x) y
@@ -56,10 +56,11 @@ Conversely, the `->` is right-associative
 a -> b -> c -- a -> (b -> c)
 ```
 
-#### Operators are also just multi-argument functions
+### Operators are also just multi-argument functions
 
 ```haskell
-:t (+) -- (+) 2 :: Num a -> a -> a
+> :t (+) 
+(+) 2 :: Num a -> a -> a
 ```
 
 You can create *partially-applied* operations like this
@@ -69,15 +70,17 @@ x 2 -- 2 + 2 = 4
 x 3 -- 2 + 3 = 5
 ```
 
-#### Function forwarding
+## Function forwarding
 
 If there is a function `f` which takes argument `x` and returns `g x`, there is no need to declare its argument. The following will suffice:
 ```haskell
 f = g
 ```
 
-#### Lambdas
+## Lambdas
 
 ```haskell
 f = \x -> x * 2
 ```
+
+## Currying

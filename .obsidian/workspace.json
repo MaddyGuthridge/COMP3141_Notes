@@ -40,9 +40,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b7dec3daf4e3d168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell/Syntax/function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Haskell/Syntax/operator.md",
+                "file": "Haskell/Syntax/function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Haskell/Syntax/operator.md",
+                "file": "Haskell/Syntax/function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Haskell/Syntax/operator.md"
+                "file": "Haskell/Syntax/function.md"
               }
             }
           }
@@ -170,14 +182,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c4662ce423d5e738",
+  "active": "b7dec3daf4e3d168",
   "lastOpenFiles": [
-    "Haskell/Haskell.md",
     "Haskell/Type class.md",
-    "Haskell/Interpreter commands.md",
     "Haskell/Data representation.md",
-    "Haskell/Syntax/list.md",
     "Haskell/Syntax/operator.md",
+    "Haskell/Haskell.md",
+    "Haskell/Interpreter commands.md",
+    "Haskell/Syntax/list.md",
     "Haskell/Syntax/pair.md",
     "Haskell/Syntax/Haskell syntax.md",
     "Haskell/Syntax/Untitled.md",
