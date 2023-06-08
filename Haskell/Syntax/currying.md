@@ -33,4 +33,4 @@ uncurriedMul (x, y) = x * y
 -- produces a function identical to uncurriedMul
 ```
 
-Due to the "first-class currying" nature of Haskell, there should be almost no reason to write uncurried functions.
+Due to the "first-class currying" nature of Haskell, there should be almost no reason to write uncurried functions, at least as far as I can tell.
