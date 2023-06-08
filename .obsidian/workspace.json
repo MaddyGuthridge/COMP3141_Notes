@@ -88,8 +88,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1f23f74fe6c54d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Induction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b6265f5fa3d1883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell/Running Haskell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -155,6 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Haskell/Syntax/currying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,6 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Haskell/Syntax/currying.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +219,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Haskell/Syntax/currying.md"
+              }
             }
           }
         ]
@@ -213,13 +242,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da7b035034e28599",
+  "active": "4e80f060610a9cc6",
   "lastOpenFiles": [
+    "Haskell/Running Haskell.md",
+    "Concepts/REPL.md",
     "Maths/Induction.md",
+    "Maths/Maths.md",
     "Assessment.md",
     "README.md",
     "Haskell/Syntax/constant.md",
-    "Maths/Maths.md",
     "Haskell/Syntax/function.md",
     "Haskell/Syntax/Haskell syntax.md",
     "Haskell/Syntax/partial function application.md",
@@ -232,8 +263,6 @@
     "Haskell/Syntax/list.md",
     "Haskell/Syntax/pair.md",
     "Haskell/Syntax/comment.md",
-    "Concepts/REPL.md",
-    "Haskell/Running Haskell.md",
     "Haskell/lazy evaluation.md",
     "Haskell/Syntax",
     "Haskell/VS Code integration.md",

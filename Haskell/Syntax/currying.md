@@ -1,1 +1,1 @@
-Currying is the idea of taking one argument per [[function]], meaning that functions can be [[function|partially-applied]].
+Currying is the idea of taking one argument per [[function]], meaning that functions can be [[function|partially-applied]]. Currying can be used in many programming languages, but is given first-class support
