@@ -33,3 +33,11 @@ We were only shown how to do this for type classes, but it might work for other 
 > :info SomeTypeClass
 -- Shows a bunch of info about the thing
 ```
+
+## Running shell commands
+You can run commands in a shell, which is useful for quick terminal operations. Note that ``
+
+```haskell
+> :! echo "Hello world"
+-- Runs the `echo` command with the argument "Hello world"
+```
