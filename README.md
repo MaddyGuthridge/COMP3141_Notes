@@ -1,6 +1,6 @@
 These are my notes for COMP3141, UNSW's course on *software design and implementation*.
 
-While I've tried my best to make sure they're correct, I can't be certain - take everything with a grain of salt.
+Unfortunately, I dropped the course, so these only have notes for the first 2-and-a-bit weeks.
 
 ## Viewing the notes
 I wrote these notes using [Obsidian](https://obsidian.md/), which provides many useful features, such as wiki-style links (`[[page name]]`), used to link pages together. You'll get the best experience reading my notes if you use it as your viewer.
